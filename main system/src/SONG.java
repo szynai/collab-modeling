@@ -8,5 +8,15 @@
  * @author shazn
  */
 public class SONG {
+        String lyrics;
     
+    public ARTIST artist;
+    public GENRE genre;
+    public SONG(){
+       
+    }
+    
+    public SONG(String lyrics){
+      this.lyrics = lyrics;
+    }
 }
